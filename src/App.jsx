@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import ContactFooter from './components/ContactFooter';
 import ClientPortal from './components/ClientPortal';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
-import FloatingAtelierDock from './components/FloatingAtelierDock';
 
 // ── Dedicated World-Class Pages ──
 import HomePage from './pages/HomePage';
@@ -119,12 +118,6 @@ export default function App() {
 
       {/* Floating WhatsApp Quick Contact Button */}
       <FloatingWhatsApp />
-
-      {/* Floating Haute Couture Atelier Dock */}
-      <FloatingAtelierDock
-        onNavigate={handleNavigate}
-        activePage={currentPage}
-      />
     </div>
   );
 }
