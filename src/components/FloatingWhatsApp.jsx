@@ -7,7 +7,7 @@ export default function FloatingWhatsApp() {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <aside aria-label="WhatsApp quick contact" className="fixed bottom-20 right-4 sm:bottom-20 sm:right-6 z-40 flex flex-col items-end space-y-3">
+    <aside aria-label="WhatsApp quick contact" className="fixed bottom-6 right-6 z-40 flex flex-col items-end space-y-3">
       {/* Quick Action Popup when expanded */}
       {expanded && (
         <div className="glass-panel p-4 rounded-2xl border border-gold-400/40 shadow-2xl space-y-2 mb-2 w-64 animate-fadeIn text-xs">
